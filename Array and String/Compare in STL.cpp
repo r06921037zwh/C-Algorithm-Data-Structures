@@ -57,7 +57,7 @@ int main() {
 		v.push_back(Student(i));
 	}
 	cout << "Before Sorting: \n";
-	for (int i = 0; i<v.size(); ++i) {
+	for (int i = 0; i < v.size(); ++i) {
 		cout << v[i].getStudentNumber() << " ";
 	}
 	cout << endl;
@@ -65,7 +65,7 @@ int main() {
 
 	sort(v.begin(), v.end(), comparatorSelfDef());
 
-	for (int i = 0; i<v.size(); ++i) {
+	for (int i = 0; i < v.size(); ++i) {
 		cout << v[i].getStudentNumber() << " ";
 	}
 
