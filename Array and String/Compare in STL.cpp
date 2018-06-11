@@ -69,8 +69,6 @@ int main() {
 		cout << v[i].getStudentNumber() << " ";
 	}
 
-
-
-	system("pause");
+	//system("pause");
 	return 0;
 }
